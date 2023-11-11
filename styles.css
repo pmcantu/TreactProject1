@@ -289,11 +289,8 @@ Third Space
     transform: scale(0.6);
     margin: 4.0rem 0 0 -12rem;
 }    
-/*
-   This is the Fourth Page
 
-   */
-   .fourth__page {
+   /*.fourth__page {
     display: flex;
     place-items: center;
     height: 100vh;
@@ -315,22 +312,39 @@ Third Space
    }
    .fourth__page-imagepic {
     transform:scale(70%);
-   
    }
-   .fourth__page-container {
-    justify-content: center;
-    max
-    
-   }
-_
+*/
+_/*
+   This is the Fourth Page
 
-   .line__one {
-    font-size: 14px;
-   }
-   .list__section {
+   */
+
+   
+   .list__section  {
     display: flex;
-    margin:0 0 16rem 0;
+  
    }
+
+    .list__number-actual {
+        color:#CBD5E0;
+        font-size: 36px;
+        margin-left: 12rem;
+       }
+       .fourth__page-stuff {
+        margin-left: 12rem;
+
+       }
+
+       .register {
+        list-style: none;
+       }
+       .register-text{
+        font-size:14px;
+       }
+
+
+       /*
+
    .register {
     list-style: none;
    }
@@ -340,10 +354,7 @@ _
    .fourth__page-list {
     margin: 0 0 16rem 0;
    }
-   .list__number-actual {
-    color:#CBD5E0;
-    font-size: 36px;
-   }
+   */
   
 /* position:relative;
     margin: 0 0 0 -10rem;
