@@ -314,36 +314,17 @@ Third Space
     transform:scale(70%);
    }
 */
-_/*
+   /*
    This is the Fourth Page
 
    */
-
-   
-   .list__section  {
-    display: flex;
-  
+ 
+   .parent {
+    background-color: red;
    }
 
-    .list__number-actual {
-        color:#CBD5E0;
-        font-size: 36px;
-        margin-left: 12rem;
-       }
-       .fourth__page-stuff {
-        margin-left: 12rem;
 
-       }
-
-       .register {
-        list-style: none;
-       }
-       .register-text{
-        font-size:14px;
-       }
-
-
-       /*
+    /*
 
    .register {
     list-style: none;
@@ -359,4 +340,29 @@ _/*
 /* position:relative;
     margin: 0 0 0 -10rem;
    }
+
+
+   .list__number {
+    max-width:10%;
+    background-color: #243e63;
+   }
+
+    .list__number-actual {
+        color:#CBD5E0;
+        font-size: 36px;
+        
+       }
+    
+       .paragraph__section {
+        background-color: aqua;
+        max-width:40%;
+       }
+
+       .register {
+        list-style: none;
+       
+       }
+       .register-text{
+        font-size:14px;
+       }
    */
