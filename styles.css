@@ -288,8 +288,122 @@ Third Space
     border:1px solid #A0AEC0;
     transform: scale(0.6);
     margin: 4.0rem 0 0 -12rem;
-}    
+} 
 
+/* Fourth Page actual
+*/
+.fourthpage-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding:96px 0;
+}
+.fourth__page-text {
+    margin-left: 10%;
+}
+.actual-img {
+    max-width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fourth__page-imagepic {
+    
+    transform:scale(80%); 
+    
+    
+}
+.fourth__page {
+    
+    max-width:60%;
+    align-items:center;
+    justify-content: center;
+}
+.master__list {
+    display: flex;
+}
+.register {
+    
+    color: #243e63;
+    font-size: 20px;
+    margin-top: 32px;
+   }
+   .register-text {
+    font-size:14px;
+    color: #718096;
+    margin: 12px 0 0;
+}
+.list__number-actual {
+    color: #CBD5E0;
+    font-size: 36px;
+    margin-top: 32px;
+}
+.line__two {
+    font-size:48px;
+    margin-top: 16px;
+}
+.section__text {
+    margin-left: 24px;
+}
+.parent__list2 {
+    display: flex;
+}
+/*
+.section {
+    max-width:50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.list__number-actual {
+    color: #CBD5E0;
+    font-size: 36px;
+    margin-top: 32px;
+}  
+.line__one {
+    font-size: 16px;
+
+}
+.section__text {
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.register-text{
+    font-size:14px;
+    color: #718096;
+    margin: 12px 0 0;
+}
+/*
+.paragraph__section {
+    margin: 0 0 0 24px;
+}
+
+.list__number-actual {
+    color: #CBD5E0;
+    font-size: 36px;
+    margin-top: 32px;
+}
+
+.list__number-actual3 {
+    color: #CBD5E0;
+    font-size: 36px;
+    margin-top: 32px;
+}
+.register {
+    list-style: none;
+    color: #243e63;
+    font-size: 20px;
+    margin-top: 32px;
+   }
+ 
+   .register-text{
+    font-size:14px;
+    color: #718096;
+    margin: 12px 0 0;
+   }
    /*.fourth__page {
     display: flex;
     place-items: center;
@@ -319,11 +433,7 @@ Third Space
 
    */
  
-   .parent {
-    background-color: red;
-   }
-
-
+ 
     /*
 
    .register {
