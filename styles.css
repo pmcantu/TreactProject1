@@ -351,128 +351,70 @@ Third Space
     display: flex;
 }
 /*
-.section {
-    max-width:50%;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-.list__number-actual {
-    color: #CBD5E0;
-    font-size: 36px;
-    margin-top: 32px;
-}  
-.line__one {
-    font-size: 16px;
-
-}
-.section__text {
-    margin-top: 32px;
-    margin-left: 32px;
-}
-.register-text{
-    font-size:14px;
-    color: #718096;
-    margin: 12px 0 0;
-}
-/*
-.paragraph__section {
-    margin: 0 0 0 24px;
-}
-
-.list__number-actual {
-    color: #CBD5E0;
-    font-size: 36px;
-    margin-top: 32px;
-}
-
-.list__number-actual3 {
-    color: #CBD5E0;
-    font-size: 36px;
-    margin-top: 32px;
-}
-.register {
-    list-style: none;
-    color: #243e63;
-    font-size: 20px;
-    margin-top: 32px;
-   }
- 
-   .register-text{
-    font-size:14px;
-    color: #718096;
-    margin: 12px 0 0;
-   }
-   /*.fourth__page {
-    display: flex;
-    place-items: center;
-    height: 100vh;
-    max-width: 100%;
-   }
-   .fourth__page-image {
+FIFTH PAGE
+   */
+   .two__columns-fifth-page{
     max-width: 50%;
+    margin-left: 10%;
+
+   }
+
+   .values {
+    font-size: 16px;
+   }
+   .principles {
+    font-size: 48px;
+    margin: 16px 0 0;
+   }
+   .affordable__paragraph {
+    font-size: 16px;
+    color:#7C8BA1;
+    margin: 32px 0 0 0;
+   }
+   .fifth__column-paragragh {
+    font-size: 16px;
+    color:#7C8BA1;
+    margin: 32px 0 0 0;
+
+   }
+   .fifth__column-paragragh2 {
+    font-size: 16px;
+    color:#7C8BA1;
+    margin: 32px 0 0 0;
+
+   }
+   .row__fifth {
+    display: flex;
+   }
+   .dollar_sign-text {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin:0 0 18rem 0;
+   justify-content: left;
    }
-   .fourth__page-container {
-    max-width: 50%;
+   .dollar_sign-text{
+    margin: 32px 32px 0 0;
    }
-   .fourth__page-text {
-    margin:0 0 18rem 0;
-
+   .dollar__text {
+   font-size: 20px;
+   margin-left: 12px;
+   
    }
-   .fourth__page-imagepic {
-    transform:scale(70%);
-   }
-*/
-   /*
-   This is the Fourth Page
-
-   */
- 
- 
-    /*
-
-   .register {
-    list-style: none;
-   }
-   .register-text{
-    font-size:14px;
-   }
-   .fourth__page-list {
-    margin: 0 0 16rem 0;
-   }
-   */
+   .dollar__sign {
+   height: 36px;
+   width: 36px;
+   border-radius: 50%;
   
-/* position:relative;
-    margin: 0 0 0 -10rem;
+   }
+   .feather.feather-briefcase {
+    background-color: #FEB2B2;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    padding:8px;
+   }
+   .professionalism__top {
+    margin-left: 6rem;
    }
 
 
-   .list__number {
-    max-width:10%;
-    background-color: #243e63;
-   }
 
-    .list__number-actual {
-        color:#CBD5E0;
-        font-size: 36px;
-        
-       }
-    
-       .paragraph__section {
-        background-color: aqua;
-        max-width:40%;
-       }
-
-       .register {
-        list-style: none;
-       
-       }
-       .register-text{
-        font-size:14px;
-       }
-   */
