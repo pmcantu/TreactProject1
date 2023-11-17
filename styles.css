@@ -353,12 +353,17 @@ Third Space
 /*
 FIFTH PAGE
    */
-   .two__columns-fifth-page{
-    max-width: 50%;
-    margin-left: 10%;
-
-   }
-
+   
+  .two__columns-fifth-page {
+    background-color: #A0AEC0;
+    display: flex;
+    
+  }
+   
+ 
+.text__column-fifth {
+    max-width:50%
+}
    .values {
     font-size: 16px;
    }
@@ -414,6 +419,18 @@ FIFTH PAGE
    }
    .professionalism__top {
     margin-left: 6rem;
+   }
+  
+   .prototype {
+    max-width:50%;
+   
+    background-color: yellow;
+   }
+   .prototype-img {
+    transform: scale(.4);
+    margin-left: -16rem;
+    margin-top: -12rem;
+    
    }
 
 
