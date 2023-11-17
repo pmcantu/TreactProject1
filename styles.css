@@ -294,10 +294,11 @@ Third Space
 */
 .fourthpage-row {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
+   
     max-width: 100%;
-    padding:96px 0;
+    padding:96px;
 }
 .fourth__page-text {
     margin-left: 10%;
@@ -311,7 +312,7 @@ Third Space
 }
 .fourth__page-imagepic {
     
-    transform:scale(80%); 
+    transform:scale(70%); 
     
     
 }
@@ -354,36 +355,37 @@ Third Space
 FIFTH PAGE
    */
    
-  .two__columns-fifth-page {
-    background-color: #A0AEC0;
+   .two__columns-fifth-page {
     display: flex;
     
   }
    
- 
-.text__column-fifth {
+   .text__column-fifth {
     max-width:50%
+    
 }
    .values {
     font-size: 16px;
+    margin-left: 62px;
    }
    .principles {
     font-size: 48px;
-    margin: 16px 0 0;
+    margin: 16px 0 0 62px;
    }
    .affordable__paragraph {
     font-size: 16px;
     color:#7C8BA1;
-    margin: 32px 0 0 0;
+    margin: 32px 0 0 52px;
    }
    .fifth__column-paragragh {
     font-size: 16px;
     color:#7C8BA1;
     margin: 32px 0 0 0;
+    padding:0 62px;
 
    }
    .fifth__column-paragragh2 {
-    font-size: 16px;
+    font-size: 18px;
     color:#7C8BA1;
     margin: 32px 0 0 0;
 
@@ -398,6 +400,7 @@ FIFTH PAGE
    }
    .dollar_sign-text{
     margin: 32px 32px 0 0;
+    margin-left: 52px;
    }
    .dollar__text {
    font-size: 20px;
@@ -424,14 +427,77 @@ FIFTH PAGE
    .prototype {
     max-width:50%;
    
-    background-color: yellow;
+    
    }
    .prototype-img {
-    transform: scale(.4);
+    transform: scale(.5);
     margin-left: -16rem;
     margin-top: -12rem;
     
    }
+   .learn__more {
+    background-color:#6415FF;
+    font:14px;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    padding: 12px 32px;
+    margin-left: 60px;
+    margin-top: 48px;
+   }
+   /*  sixth page */
+   .three__plans {
+    display: flex;
+   }
+
+.randf__plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.reasonable {
+    font-size:48px;
+    color: #243E63
+}
+.pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.sixth__paragraph  {
+display: flex;
+align-items: center;
+justify-content: center;
+margin:16px 0;  
+} 
+.sixth__paragraph-text {
+    font-size:18px;
+    color:#7C8BA1;
+    text-align: center;
+    max-width: 600px;
+}
+/*    next page
+*/
 
 
 
+.personal {
+    font-size:20px;
+    color: #1A202C;
+}
+.price__personal {
+    font-size: 48px;
+    color: #1A202C;
+}
+.business {
+    font-size:20px;
+    color: #1A202C;
+}
+.enterprise {
+    font-size:20px;
+    color: #1A202C;
+}
