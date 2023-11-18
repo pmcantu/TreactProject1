@@ -480,13 +480,94 @@ margin:16px 0;
     text-align: center;
     max-width: 600px;
 }
+
+
+
+
 /*    next page
 */
+
+
+
+.personal_paragraph {
+    
+    max-width: 30%;
+    text-align:center;
+    border:1px solid #A0AEC0;
+    justify-content: center;
+    border-top:12px solid #9AE6B4;
+    border-radius: 10px;
+    padding: 32px 0;
+}
+    .personal {
+        font-size:20px;
+        color: #1A202C;
+    }
+    
+    .plan__personal {
+        
+    }
+.personal {
+    font-size:20px;
+    color: #1A202C;
+}
+.plan__price  {
+    margin: 12px 0 0;
+}
+.price__personal {
+    font-size: 48px;
+    color: #1A202C;
+}
+.duration {
+    font-size: 16px;
+    color: #A0AEC0;
+
+}
+
+
+.three__plans-features {
+    background-color:#9AE6B4;
+    max-width:30%;
+    text-align: center;
+    border:1px solid #A0AEC0;
+    border-radius: 10px;
+
+}
+.for__individuals-box {
+    margin-top: 20px;
+}
+
+.for__individuals {
+    font-size: 20px;
+    color: #1A202C;
+}
+.template-box {
+    margin-top: 20px;
+
+}
+
+.templates {
+    margin-top: 20px;
+    color:#718096;
+}
+.landing {
+    margin-top: 20px;
+    color:#718096;
+}
+.internal {
+    margin-top: 20px;
+    color:#718096;
+}
+.assistance {
+    margin-top: 20px;
+    color:#718096;
+}
+/*
 .price__structure {
     
 }
 .three__plans {
-   
+   background-color:#FEB2B2;
 }
 .personal_paragraph {
     text-align:center;
@@ -495,10 +576,31 @@ margin:16px 0;
     margin:20px 0 0 0;
 }
 .templates {
+    font-size: 16px;
     color:#718096;
 }
+.landing_box {
+    margin:20px 0 0 0;
+}
+.landing {
+    font-size: 16px;
+    color:#718096;
+}
+.internal__pages {
+    margin:20px 0 0 0;
+}
+.internal {
+    font-size: 16px;
+    color:#718096;
 
-
+}
+.assistance__level {
+    margin:20px 0 0 0;
+}
+.assistance {
+    font-size: 16px;
+    color:#718096;
+}
 /*
 .second__partition {
     margin-top: 20px;
