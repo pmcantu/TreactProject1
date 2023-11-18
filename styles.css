@@ -482,9 +482,28 @@ margin:16px 0;
 }
 /*    next page
 */
+.price__structure {
+    
+}
+.three__plans {
+   
+}
+.personal_paragraph {
+    text-align:center;
+}
+.template-box {
+    margin:20px 0 0 0;
+}
+.templates {
+    color:#718096;
+}
 
 
-
+/*
+.second__partition {
+    margin-top: 20px;
+    color:#718096;
+}
 .personal {
     font-size:20px;
     color: #1A202C;
@@ -501,3 +520,25 @@ margin:16px 0;
     font-size:20px;
     color: #1A202C;
 }
+.for__individuals {
+    font-size: 20px;
+    color: #1A202C;
+}
+
+.templates {
+    margin-top: 20px;
+    color:#718096;
+}
+.landing {
+    margin-top: 20px;
+    color:#718096;
+}
+.internal {
+    margin-top: 20px;
+    color:#718096;
+}
+.assistance {
+    margin-top: 20px;
+    color:#718096;
+}
+*/
