@@ -505,6 +505,7 @@ margin:16px 0;
     border:1px solid #A0AEC0;
     border-radius: 10px;
     justify-content: center;
+    margin-top: 64px;
    
   
 }
@@ -515,7 +516,7 @@ margin:16px 0;
     border-radius: 10px;
     justify-content: center;
     background-color:#6415FF;
-
+    margin-top: 64px;
 }
 .plan__personal {
     justify-content: center;
@@ -528,6 +529,13 @@ margin:16px 0;
     color:white;
     border-radius: 10px;
     padding-top: 32px;
+}
+.plan__enterprise {
+    justify-content: center;
+    border-top:12px solid #FEB2B2;
+    border-radius: 10px;
+    padding-top: 32px;
+
 }
 
 .duration__box {
@@ -595,6 +603,9 @@ margin:16px 0;
 .internal {
     color:#718096;
 }
+.internal-business {
+    color : white;
+}
 .assistance-level {
     margin-top: 20px;
     margin-bottom: 32px;
@@ -602,6 +613,9 @@ margin:16px 0;
 .assistance {
     color:#718096;
     
+}
+.assistance-business {
+    color: white;
 }
 
 .buy__now-box {
@@ -629,85 +643,45 @@ margin:16px 0;
     padding: 16px 64px;
     
 }
+.buy__now-three {
+    background-color: #FEB2B2;
+    font:14px;
+    color: white;
+    border-radius: 32px;
+    cursor: pointer;
+    padding: 16px 64px;
+
+}
 /*
-.price__structure {
+       TESTIMONIALS PAGE
+*/
+.container__eight {
+    margin-top: 96px;
+    display:flex;
+   
+     padding:0 32px;
+   
+
+}
+.column__eight-left {
+    max-width: 45%;
+}
+.column__eight-right {
+    padding: 0 0 0 64px;
+}
+.love__us {
+    transform:scale(.52);
+    margin-left: -15.5rem;
+}
+.testimonials-title {
+    font-size: 16px;
     
 }
-.three__plans {
-   background-color:#FEB2B2;
-}
-.personal_paragraph {
-    text-align:center;
-}
-.template-box {
-    margin:20px 0 0 0;
-}
-.templates {
-    font-size: 16px;
-    color:#718096;
-}
-.landing_box {
-    margin:20px 0 0 0;
-}
-.landing {
-    font-size: 16px;
-    color:#718096;
-}
-.internal__pages {
-    margin:20px 0 0 0;
-}
-.internal {
-    font-size: 16px;
-    color:#718096;
-
-}
-.assistance__level {
-    margin:20px 0 0 0;
-}
-.assistance {
-    font-size: 16px;
-    color:#718096;
-}
-/*
-.second__partition {
-    margin-top: 20px;
-    color:#718096;
-}
-.personal {
-    font-size:20px;
-    color: #1A202C;
-}
-.price__personal {
+.our__clients {
     font-size: 48px;
-    color: #1A202C;
 }
-.business {
-    font-size:20px;
-    color: #1A202C;
+.our__clients-two {
+    font-size: 18px;
+    color: #7C8BA1;
+    margin-top: 24px;
 }
-.enterprise {
-    font-size:20px;
-    color: #1A202C;
-}
-.for__individuals {
-    font-size: 20px;
-    color: #1A202C;
-}
-
-.templates {
-    margin-top: 20px;
-    color:#718096;
-}
-.landing {
-    margin-top: 20px;
-    color:#718096;
-}
-.internal {
-    margin-top: 20px;
-    color:#718096;
-}
-.assistance {
-    margin-top: 20px;
-    color:#718096;
-}
-*/
