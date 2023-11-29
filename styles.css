@@ -668,6 +668,7 @@ margin:16px 0;
 }
 .column__eight-right {
     padding: 0 0 0 64px;
+    
 }
 .love__us {
     transform:scale(.52);
@@ -685,3 +686,39 @@ margin:16px 0;
     color: #7C8BA1;
     margin-top: 24px;
 }
+.rating_image {
+    transform: scale(.4);
+    margin: 16px 0 0 -4.4rem;
+    
+}
+.amazing__user {
+    font-size: 20px;
+    color: #243E63
+}
+.last__paragraph {
+    font-size: 16px;
+    color:#4A5568;
+    margin:16px 0 40px;
+} 
+.slick__charlotte-box {
+    display: flex;
+    align-items: center;
+}
+
+.charlotee-photo {
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    overflow: hidden;
+}
+.charlottee__hale {
+font-size:20px;
+color: #243E63;
+margin-left: 24px;
+}
+.carlottee__title {
+    font-size:16px;
+    color: #7C8BA1;
+    margin-left: 24px;
+}
+
