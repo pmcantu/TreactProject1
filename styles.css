@@ -660,7 +660,7 @@ margin:16px 0;
     display:flex;
    
      padding:0 32px;
-   
+     
 
 }
 .column__eight-left {
@@ -668,6 +668,7 @@ margin:16px 0;
 }
 .column__eight-right {
     padding: 0 0 0 64px;
+
     
 }
 .love__us {
@@ -676,10 +677,10 @@ margin:16px 0;
 }
 .testimonials-title {
     font-size: 16px;
-    
 }
 .our__clients {
     font-size: 48px;
+    margin-top: 24px;
 }
 .our__clients-two {
     font-size: 18px;
@@ -700,10 +701,14 @@ margin:16px 0;
     color:#4A5568;
     margin:16px 0 40px;
 } 
+
 .slick__charlotte-box {
     display: flex;
     align-items: center;
+    justify-content:;
+    background-color:#FEB2B2;
 }
+
 
 .charlotee-photo {
     width:80px;
@@ -716,9 +721,81 @@ font-size:20px;
 color: #243E63;
 margin-left: 24px;
 }
-.carlottee__title {
+.charlottee__title {
     font-size:16px;
     color: #7C8BA1;
     margin-left: 24px;
 }
+.arrow__container {
+    display: flex;
+}
 
+.left__arrow-section {
+    width: 48px;
+    height:48px;
+    background-color:#EDF2F7;
+    border-radius: 50%;
+    margin: 0 12px;
+    
+}
+.left__arrow-section img {
+    transform: scale(.06);
+    margin-left: -14.5rem;
+    margin-top: -14.5rem;
+}
+.right__arrow-section {
+    width: 48px;
+    height:48px;
+    background-color:#EDF2F7;
+    border-radius: 50%;
+    margin: 0 12px;
+    
+}
+.right__arrow-section img {
+    transform: scale(.06);
+    margin-left: -14.5rem;
+    margin-top: -14.5rem;
+}
+.r
+
+/*
+.left__arrow {
+    transform: scale(.06);
+    margin-top: -47%;
+    margin-left: -39%;
+    
+}
+
+*/
+
+/*
+.right__arrow {
+    transform: scale(.2);
+}
+
+.slick__charlotte-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6rem;
+}
+*/
+.single__column {
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single__column-items {
+    margin-top: 96px;
+    text-align: center;
+}
+
+.faqs{
+    margin-bottom: 16px;
+}
+.and__we {
+    font-size:18px;
+    color: #7C8BA1;
+    margin-top: 16px;
+}
