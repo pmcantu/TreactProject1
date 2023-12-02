@@ -705,8 +705,8 @@ margin:16px 0;
 .slick__charlotte-box {
     display: flex;
     align-items: center;
-    justify-content:;
-    background-color:#FEB2B2;
+
+   
 }
 
 
@@ -728,6 +728,7 @@ margin-left: 24px;
 }
 .arrow__container {
     display: flex;
+   margin-left: 13rem;
 }
 
 .left__arrow-section {
@@ -793,6 +794,9 @@ margin-left: 24px;
 
 .faqs{
     margin-bottom: 16px;
+}
+.you__have-q {
+    font-size:48px;
 }
 .and__we {
     font-size:18px;
