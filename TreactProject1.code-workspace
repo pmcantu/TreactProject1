@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "assets.treac"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TreactProject1"
+	}
+}
