@@ -792,7 +792,7 @@ Slick Menu Start
     height:100%;
     overflow-y:scroll;
     color:#2D3748;
-margin-top: 96px;
+     margin-top: 48px;
     min-height:0;
     display:inline-block;
    
@@ -806,19 +806,20 @@ margin-top: 96px;
 }
 
 .menu__itemq {
-    margin-top: 1rem;
-    max-height: .5rem;
-    margin-left: .5rem;
+    margin-top: .5rem;
+    max-height: .25rem;
+    margin-left: .25rem;
     font-size: 22px;
     color:#2D3748
 }
 
 .menu__itema {
     margin:46px 0;
-    font-size: 20px;
+    font-size: 18px;
     position:relative;
     overflow:hidden;
     max-height:800px;
+    color:#7C8BA1;
     opacity:1;
     transform: translate(0,0);
     z-index:2;
@@ -930,67 +931,21 @@ ul li input[type=checkbox]:checked ~ i:after {
   }
 }
 /*
-body {
-    min-height:0;
-    display:inline-block;
-    position:relative;
-    left:50%;
-    margin:90px 0;
-    transform: translate(-50%, 0);
-    box-shadow: 0 10px 0 0 #2D3748 inset;
-    background-color:#7C8BA1;
-    max-width:450px;
-    padding: 30px;
-}
-
-
-
-.first__box {
-    background-color:#EDF2F7;
-    padding: 16px 0;
-    max-width:60%;
-    margin-left: 10rem;
-
-    margin-top: 4rem;
+Last Part
+*/
+.decorator__container {
+    background-color: #6415FF;
+    padding:10rem 0;
+    margin-top: 96px;
+    margin-left: 4rem;
+    margin-right: 4rem;
     border-radius: 10px;
 }
-.first__q {
-    font-size:20px;
-    color:#2D3748;
-}
-.answer__one {
-    font-size: 18px;
-    color:#2D3748;
-    padding: 0 16rem 0 0;
-   
-    margin-top: 12px;
-}
-#accordion li {
-    list-style: none;
-   width:100%;
-    
-}
-#accordion li label {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor:pointer;
-    padding: 0 10px;
-}
-#accordion li label span {
-    transform: rotate(90deg);
-    font-size:20px;
-}
-#accordion label + input[type="radio"]{
-display:none;
-}
-#accordion .content {
-    max-height:0;
-    overflow:hidden;
-    transition: max-height .3s;
 
+
+.lastp__text {
+    font-size: 30px;
+    color:#F7FAFC;
+    max-width: 36rem;
+    padding: 0 32px;
 }
-#accordion label + input[type="radio"]:checked + .content {
-    max-height:400px;
-}
-*/
